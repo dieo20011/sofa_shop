@@ -1,0 +1,91 @@
+.hero__section{
+    background: conic-gradient(from 180deg at 50% 50%, rgba(53, 77, 33, 0.78) 0deg, rgba(70, 109, 29, 0.36) 128.62deg, rgba(114, 140, 105, 0.76) 136.12deg, rgba(67, 103, 30, 0.475663) 248.62deg, rgba(53, 77, 33, 0.78) 360deg);
+}
+.hero__content h2 {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+.hero__content p{
+    color: var(--primary-color);
+    line-height: 28px;
+}
+.hero__section p:nth-child(1){
+    font-weight: 500;
+}
+.hero__content{
+    padding-top: 45px;
+}
+.buy__btn{
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 40px;
+}
+.buy__btn a:hover{
+    color: #fff;
+}
+.timer__count{
+    background: conic-gradient(from 180deg at 50% 50%, rgba(53, 77, 33, 0.78) 0deg, rgba(70, 109, 29, 0.36) 128.62deg, rgba(114, 140, 105, 0.76) 136.12deg, rgba(67, 103, 30, 0.475663) 248.62deg, rgba(53, 77, 33, 0.78) 360deg);
+    height: 300px;
+}
+.timer__count img{
+    width: 70% !important;
+    height: 70% !important;
+    object-fit: contain;
+}
+.store__btn{
+    font-weight: 600;
+}
+.store__btn a:hover{
+    color: var(--primary-color);
+}
+.counter__img{
+    display: none;
+}
+.clock__top-content{
+    text-align: center;
+}
+.clock__top-content h4{
+    font-size: 1.1rem !important;
+}
+.clock__top-content h3{
+    font-size: 1.4rem !important;
+}
+.count__down-col{
+    text-align: center;
+}
+@media only screen and (max-width: 992px) {
+    .hero__content h2{
+        font-size: 2rem;
+    }
+    .section__title{
+        font-size: 1.7rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    .hero__content h2{
+        font-size: 1.6rem;
+    }
+    .hero__content p {
+        font-size: 1rem;
+    }
+    .buy__btn{
+        font-size: 0.9rem;
+    }
+    .section__title{
+        font-size: 1.4rem;
+    }
+}
+@media only screen and (max-width: 576px){
+    .hero__content{
+        padding-top: 0;
+        margin-bottom: 40px;
+    }
+}
